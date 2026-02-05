@@ -1,0 +1,16 @@
+{
+  "name": "mcp-servers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mcp-server-mysql": "^1.0.42",
+    "mysql2": "^3.16.3"
+  }
+}
