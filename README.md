@@ -83,6 +83,24 @@ node start-mcp.js
 *   `test-connection.js`: Utility script to test the database connection independently of the MCP server.
 *   `package.json`: Project dependencies.
 
+
+## 🛠️ Usage
+
+Sample Code MCP Server in Antigravity AI
+
+```javascript
+{
+  "mcpServers": {
+    "mysql-pos": {
+      "command": "node",
+      "args": [
+        "/var/www/html/mcp-servers/index-mcp.js"
+      ]
+    }
+  }
+}
+```
+
 ## 🤝 Contributing
 
 Feel free to fork this repository and submit pull requests if you have improvements or bug fixes.
